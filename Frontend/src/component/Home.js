@@ -4,10 +4,10 @@ import Card from "./Card";
 import Left_items from "./Left_container_item";
 import LeftPaneIcons from "./LeftPaneIcons";
 import LeftPaneLogo from "./LeftPaneLogo";
-import './Home.css'
+import "./Home.css";
 
 const Home = () => {
-    const [active, setActive] = useState(0);
+  const [active, setActive] = useState(0);
 
   const handleClick = (e) => {
     setActive(e);
@@ -47,7 +47,6 @@ const Home = () => {
       </div>
     );
   });
-
 
   return (
     <div className="container">
