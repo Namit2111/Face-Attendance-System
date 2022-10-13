@@ -2,6 +2,7 @@
 // Required to display information on the card
 
 import React from "react";
+import './Card.css'
 
 function Str({ Name, RollNO }) {
   return (

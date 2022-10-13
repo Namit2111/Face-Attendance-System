@@ -1,0 +1,81 @@
+.header{
+    width: 80.9vw;
+    height: 50px;
+    background-color: white;
+    font-size: 30px;
+    z-index: 10;
+
+    display:flex;
+    flex-direction: row;    
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    float: right;
+    box-shadow: 3px 2px 5px #888;
+    padding-left: 10px;
+    position: sticky;
+    top:0%;
+    border-left: 1px solid  #888888;
+}
+
+.header .fa{
+    margin: 10px;
+    color: #c9caca;
+    cursor: pointer;
+}
+
+.header .fa:hover{
+    color: #3C40C6;
+}
+
+.header .fst{
+    margin-right: 40px;
+    color: #3C40C6;
+    cursor: pointer;
+}
+
+.login_box{
+    display:flex;
+    flex-direction: row;    
+    justify-content: space-between;
+    align-items: center;
+    border-left: 2px solid #E3E8EC;
+    margin-left: 13px;
+    padding:0 30px;
+}
+
+.fa_class .fa{
+    color: #3C40C6;
+    cursor: pointer;
+}
+
+.login_box_text{
+    font-size: 15px;
+    display:flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.brogrammer{
+    font-size: 10px;
+}
+
+.login_box_image{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_box_image img{
+    width: 40px;
+    margin-left: 10px;
+    
+    clip-path: circle();
+    margin-bottom: 0px;
+}
+
+.right_header{
+    display:flex;
+    flex-direction: row; 
+    align-items: center;
+}
