@@ -1,11 +1,13 @@
-import React from "react";
 
+// Required to display information on the card
+
+import React from "react";
 
 function Str({ Name, RollNO }) {
   return (
     <div className="card">
       <div className="image">
-        <img src={require(`./faces/${Name}.jpeg`)}/>
+        <img src={require(`../faces/${Name}.jpeg`)}/>
         <h1>{Name}</h1>
         <p>Roll NO = {RollNO}</p>
       </div>

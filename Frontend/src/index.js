@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./Facial.css";
-import Facial from "./Facial.js";
+import "./component/Facial.css";
+import App from "./component/App.js";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Facial />
+    <App />
   </React.StrictMode>,
   document.getElementById("root")
 );

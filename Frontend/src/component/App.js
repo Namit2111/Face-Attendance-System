@@ -1,34 +1,26 @@
 import React, { useState } from "react";
-import data from "./Dataforface";
-import Str from "./Str";
+import DataBase from "./DataBase";
+import Card from "./Card";
 import Left_items from "./Left_container_item";
 import List_design from "./List_design";
 import Logo from "./Logo";
 import Header from "./Header";
 
-// vivek is gr8 
-
-
-function Facial() {
+function App() {
   const [active, setActive] = useState(0);
 
   const handleClick = (e) => {
-    console.log(e);
     setActive(e);
   };
 
+  let arr = [];
 
-  let arr = []
-  
-  if(data.length){
-    arr = data.map((e) => {
-      if(e.Name == "Unknown") return;
-      return <Str Name={e.Name} RollNO={e.RollNO}></Str>;
+  if (DataBase.length) {
+    arr = DataBase.map((e) => {
+      if (e.Name == "Unknown") return;
+      return <Card Name={e.Name} RollNO={e.RollNO}></Card>;
     });
   }
-   
-  
-  
 
   let i = 0;
   const left_items = Left_items.map((e) => {
@@ -78,7 +70,7 @@ function Facial() {
         </div>
         <div className="right">
           <div className="right_items">
-            {data.length  ? arr : "MASS BUNK"}
+            {DataBase.length ? arr : "MASS BUNK"}
           </div>
         </div>
       </div>
@@ -86,4 +78,4 @@ function Facial() {
   );
 }
 
-export default Facial;
+export default App;

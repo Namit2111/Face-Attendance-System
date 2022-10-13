@@ -21,7 +21,7 @@ function Header() {
             <p className="brogrammer">Brogrammer's</p>
           </div>
           <div className="login_box_image">
-          <img src={require(`./faces/logo.JPG`)}/>
+            <img src={require(`../faces/logo.JPG`)} />
           </div>
         </div>
       </div>
