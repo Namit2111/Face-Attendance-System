@@ -1,3 +1,5 @@
+// For desiging the left pane icons
+
 import React from "react";
 
 function Design({ PlaceHolder, id, active, handleClick }) {
@@ -7,7 +9,6 @@ function Design({ PlaceHolder, id, active, handleClick }) {
       className={`list_design${active == id ? " active" : ""}`}
       id={id}
       onClick={() => {
-        console.log(id);
         handleClick(id);
       }}
     >

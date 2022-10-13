@@ -1,3 +1,5 @@
+// This is for including the logo for left pane
+
 const Logo = [
   "fa fa-bars",
   "fa fa-check-square-o",

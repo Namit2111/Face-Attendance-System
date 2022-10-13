@@ -7,7 +7,7 @@ function Str({ Name, RollNO }) {
   return (
     <div className="card">
       <div className="image">
-        <img src={require(`../faces/${Name}.jpeg`)}/>
+        <img src={require(`../EncodedImages/${Name}.jpeg`)}/>
         <h1>{Name}</h1>
         <p>Roll NO = {RollNO}</p>
       </div>

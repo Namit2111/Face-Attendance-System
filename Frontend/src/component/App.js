@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import DataBase from "./DataBase";
 import Card from "./Card";
 import Left_items from "./Left_container_item";
-import List_design from "./List_design";
-import Logo from "./Logo";
+import LeftPaneIcons from "./LeftPaneIcons";
+import LeftPaneLogo from "./LeftPaneLogo";
 import Header from "./Header";
 
 function App() {
@@ -25,17 +25,17 @@ function App() {
   let i = 0;
   const left_items = Left_items.map((e) => {
     return (
-      <List_design
+      <LeftPaneIcons
         PlaceHolder={e}
         id={i++}
         active={active}
         handleClick={handleClick}
-      ></List_design>
+      ></LeftPaneIcons>
     );
   });
 
   let j = 0;
-  const logo_design = Logo.map((e) => {
+  const logo_design = LeftPaneLogo.map((e) => {
     return (
       <div
         className={`container_logo${active == j ? " active" : ""}`}
