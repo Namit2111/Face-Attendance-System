@@ -1,6 +1,7 @@
 // For desiging the left pane icons
 
 import React from "react";
+import "./LeftPaneIcons.css";
 
 function Design({ PlaceHolder, id, active, handleClick }) {
   const name = PlaceHolder.toLowerCase();
