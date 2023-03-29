@@ -27,3 +27,6 @@ Note: This project has been created using Python 3.7, OpenCV 4.5, and face_recog
 
 # Integration on a website
 This project is supposed to be integrated with website that is created using ReactJS and NodeJS , it helps in viewing which person is present and has its attendace marked.
+
+# Demo Picture of final project
+![image](https://user-images.githubusercontent.com/74317826/228658504-ebbd4ba3-4862-417e-b81a-b0f3dd07b239.png)
